@@ -14,14 +14,19 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
+  gap: 20px;
+  padding: 100px;
+}
+
+main {
+  gap: 20px;
+  padding-left: 100px;
 }
 
 .App-link {
@@ -35,4 +40,26 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.todoBtn {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+input {
+  padding: 10px;
+}
+
+table {
+  border: 1px solid black;
+  width: 800px;
+}
+
+td, th {
+  border: 1px solid black;
+}
+button {
+  margin: 5px;
+  color: white;
 }
